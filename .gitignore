@@ -1,0 +1,38 @@
+## .gitignore 简化版本
+## 用于忽略 Python 缓存文件，避免将编译后的字节码提交到版本控制
+__pycache__/
+*.pyc
+*.pyo
+
+## 忽略虚拟环境目录，防止将 Python 虚拟环境提交到仓库
+.venv/
+venv/
+env/
+
+## 忽略 Jupyter Notebook 检查点目录
+.ipynb_checkpoints/
+
+## 忽略 VS Code 和 IDE 配置目录
+.vscode/
+.idea/
+
+## 忽略构建输出目录
+dist/
+build/
+*.egg-info/
+
+## 忽略模型训练检查点文件
+*.pth
+*.pt
+*.ckpt
+
+## 忽略日志文件
+logs/
+runs/
+
+
+## 忽略数据集目录
+data/*
+
+## 忽略预训练权重文件
+weights/*
