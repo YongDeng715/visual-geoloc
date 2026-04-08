@@ -30,6 +30,8 @@ build/
 logs/
 runs/
 
+## 忽略相关参考项目和资源目录
+reference/*
 
 ## 忽略数据集目录
 data/*
